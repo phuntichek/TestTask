@@ -1,0 +1,71 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/bootcamp/Desktop/work_projects/spac/src/Scheduler/Spac.Scheduler.csproj",
+    "projectName": "Spac.Scheduler",
+    "projectPath": "/Users/bootcamp/Desktop/work_projects/spac/src/Scheduler/Spac.Scheduler.csproj",
+    "outputPath": "/Users/bootcamp/Desktop/work_projects/spac/src/Scheduler/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "http://sbtatlas.sigma.sbrf.ru/nexus/service/local/nuget/NuGet_Feed_v2_proxy/": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {
+          "/Users/bootcamp/Desktop/work_projects/spac/src/Common/Spac.Common.csproj": {
+            "projectPath": "/Users/bootcamp/Desktop/work_projects/spac/src/Common/Spac.Common.csproj"
+          },
+          "/Users/bootcamp/Desktop/work_projects/spac/src/Defects.Transporter/Spac.Defects.Transporter.csproj": {
+            "projectPath": "/Users/bootcamp/Desktop/work_projects/spac/src/Defects.Transporter/Spac.Defects.Transporter.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "dependencies": {
+        "Hangfire": {
+          "target": "Package",
+          "version": "[1.7.9, )"
+        },
+        "Hangfire.MemoryStorage": {
+          "target": "Package",
+          "version": "[1.6.3, )"
+        },
+        "Hangfire.SqlServer": {
+          "target": "Package",
+          "version": "[1.7.9, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.AspNetCore.App": {
+          "privateAssets": "none"
+        },
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+    }
+  }
+}

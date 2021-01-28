@@ -1,0 +1,15 @@
+sudo psql -U phuntik -d postgres 
+postgres=# create database testtask;
+postgres=# create user test with password '1111';
+postgres=# grant all on database testtask to test;
+/* база данных с пользователем готова, прописываем подключение в appsettings.json и работаем дальше с бд*/
+
+/*функция из пункта №3*/
+Select Exchange from DateCurrencyExchange WHERE CurrencyName=Variable AND Date=Variable
+
+/*функция из пункта №4*/
+
+public string ExchangeFoundation(string currencyName, string date)
+{
+    return (string dateCurEx = _appDbContext.DateCurrencyExchanges.Where(u => u.CurrencyName == currencyName && u.Date == data).FirstOrDefault(););
+}
